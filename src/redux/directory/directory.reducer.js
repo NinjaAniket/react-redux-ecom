@@ -1,38 +1,44 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: 'hats',
-      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-      id: 1,
-      linkUrl: 'shop/hats'
-    },
-    {
-      title: 'jackets',
-      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+      title: "jackets",
+      imageUrl:
+        "https://static.zara.net/photos///mkt/spots/aw20-north-collection-kids/subhome-xmedia-38//w/1440/landscape_0.jpg?ts=1600430278007",
       id: 2,
-      linkUrl: 'shop/jackets'
+      linkUrl: "shop/jackets",
     },
     {
-      title: 'sneakers',
-      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+      title: "hats",
+      imageUrl:
+        "https://static.zara.net/photos///mkt/spots/aw20-north-new-in-kids/subhome-xmedia-37//w/1440/landscape_0.jpg?ts=1599818646269",
+      id: 1,
+      linkUrl: "shop/hats",
+    },
+
+    {
+      title: "sneakers",
+      imageUrl:
+        "https://static.zara.net/photos///mkt/spots/aw20-north-join-life-kids/subhome-xmedia-37//w/1440/landscape_0.jpg?ts=1599498329954",
       id: 3,
-      linkUrl: 'shop/sneakers'
+      linkUrl: "shop/sneakers",
     },
     {
-      title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
-      size: 'large',
+      title: "womens",
+      imageUrl:
+        "https://static.zara.net/photos///mkt/spots/aw20-north-new-in-man/subhome-xmedia-38//w/1440/landscape_0.jpg?ts=1600336852725",
+      // size: "large",
       id: 4,
-      linkUrl: 'shop/womens'
+      linkUrl: "shop/womens",
     },
     {
-      title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-      size: 'large',
+      title: "mens",
+      imageUrl:
+        "https://static.zara.net/photos///mkt/spots/aw20-north-collection-man/subhome-xmedia-37//w/1440/landscape_0.jpg?ts=1599759206871",
+      // size: "large",
       id: 5,
-      linkUrl: 'shop/mens'
-    }
-  ]
+      linkUrl: "shop/mens",
+    },
+  ],
 };
 
 const directoryReducer = (state = INITIAL_STATE, action) => {
